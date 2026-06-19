@@ -1,0 +1,138 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 25548
+License: Customer
+
+Current time: 	Fri Jun 19 17:02:17 CST 2026
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 12 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/tools/vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/tools/vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ïc
+User home directory: C:/Users/ïc
+User working directory: D:/FPGAmoudle/--main/--main/vivado_project
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/tools/vivado
+HDI_APPROOT: D:/tools/vivado/2019.2
+RDI_DATADIR: D:/tools/vivado/2019.2/data
+RDI_BINDIR: D:/tools/vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/ïc/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/ïc/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/ïc/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/tools/vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/FPGAmoudle/--main/--main/vivado_project/vivado.log
+Vivado journal file location: 	D:/FPGAmoudle/--main/--main/vivado_project/vivado.jou
+Engine tmp dir: 	D:/FPGAmoudle/--main/--main/vivado_project/.Xil/Vivado-25548-FAN
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/tools/vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/tools/vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/tools/vivado/2019.2
+XILINX_SDK: D:/tools/Vitis/2019.2
+XILINX_VITIS: D:/tools/Vitis/2019.2
+XILINX_VIVADO: D:/tools/vivado/2019.2
+XILINX_VIVADO_HLS: D:/tools/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 708 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: Sourcing tcl script 'D:/tools/vivado/2019.2/scripts/Vivado_init.tcl' 
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 111 MB (+113950kb) [00:00:08]
+// [Engine Memory]: 634 MB (+513747kb) [00:00:08]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\FPGAmoudle\--main\--main\vivado_project\DDS_Signal_Generator.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 783 MB. GUI used memory: 49 MB. Current time: 6/19/26, 5:02:19 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 843 MB (+185172kb) [00:00:14]
+// [Engine Memory]: 926 MB (+43050kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  2774 ms.
+// Tcl Message: open_project D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/vivado/2019.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 967.156 ; gain = 290.684 
+// Project name: DDS_Signal_Generator; location: D:/FPGAmoudle/--main/--main/vivado_project; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v)]", 4, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v)]", 4, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v)]", 4, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v)]", 4, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v)]", 4); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ai (ao, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), hmi_recv_inst : HMI_Recv (HMI_Recv.v), U1 : HMI_UARX (HMI_UARX.v)]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ai (ao, cr)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), dds_core_inst : DDS_Core (DDS_Core.v)]", 6, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DDS_Signal_Generator (DDS_Signal_Generator_sim.v), key_ctrl_inst : Key_Control (Key_Control.v)]", 3, false); // B (F, cr)
