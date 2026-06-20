@@ -1,5 +1,0 @@
-the_ROM_image:
-{
-    [bootloader] <Vitis工程路径>/fsbl/Debug/fsbl.elf
-    <比特流路径>/DDS_Signal_Generator_top.bit
-}

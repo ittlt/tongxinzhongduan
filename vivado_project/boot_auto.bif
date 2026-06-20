@@ -1,5 +1,0 @@
-the_ROM_image:
-{
-    [bootloader] D:/FPGAmoudle/--main/--main/vivado_project/vitis_workspace/hw_platform/export/hw_platform/sw/hw_platform/boot/fsbl.elf
-    D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.runs/impl_1/DDS_Signal_Generator_top.bit
-}
