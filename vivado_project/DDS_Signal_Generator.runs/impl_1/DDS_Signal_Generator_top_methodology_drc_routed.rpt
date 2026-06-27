@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Jun 19 21:30:00 2026
+| Date         : Sat Jun 27 21:05:01 2026
 | Host         : FAN running 64-bit major release  (build 9200)
 | Command      : report_methodology -file DDS_Signal_Generator_top_methodology_drc_routed.rpt -pb DDS_Signal_Generator_top_methodology_drc_routed.pb -rpx DDS_Signal_Generator_top_methodology_drc_routed.rpx
 | Design       : DDS_Signal_Generator_top
@@ -364,167 +364,167 @@ Related violations: <none>
 
 TIMING-16#1 Warning
 Large setup violation  
-There is a large setup violation of -1.359 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[3]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.559 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[3]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#2 Warning
 Large setup violation  
-There is a large setup violation of -1.637 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[4]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.935 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[4]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#3 Warning
 Large setup violation  
-There is a large setup violation of -1.864 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[5]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -16.637 ns between dds_inst/fcw_send_buf_reg[7]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[0]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#4 Warning
 Large setup violation  
-There is a large setup violation of -17.165 ns between dds_inst/fcw_send_buf_reg[16]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[0]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.046 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[5]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#5 Warning
 Large setup violation  
-There is a large setup violation of -2.013 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[6]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.221 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[6]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#6 Warning
 Large setup violation  
-There is a large setup violation of -2.194 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[7]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.281 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[7]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#7 Warning
 Large setup violation  
-There is a large setup violation of -2.793 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[8]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.414 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[8]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#8 Warning
 Large setup violation  
-There is a large setup violation of -2.809 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[10]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.550 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[9]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#9 Warning
 Large setup violation  
-There is a large setup violation of -2.883 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[11]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.673 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[10]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#10 Warning
 Large setup violation  
-There is a large setup violation of -2.904 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[9]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.732 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[11]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#11 Warning
 Large setup violation  
-There is a large setup violation of -2.924 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[12]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.951 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[12]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#12 Warning
 Large setup violation  
-There is a large setup violation of -2.940 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[14]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.967 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[14]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#13 Warning
 Large setup violation  
-There is a large setup violation of -20.991 ns between dds_inst/fcw_send_buf_reg[16]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[1]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -20.867 ns between dds_inst/fcw_send_buf_reg[7]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[3]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#14 Warning
 Large setup violation  
-There is a large setup violation of -21.057 ns between dds_inst/fcw_send_buf_reg[16]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[2]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -20.887 ns between dds_inst/fcw_send_buf_reg[7]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[2]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#15 Warning
 Large setup violation  
-There is a large setup violation of -21.211 ns between dds_inst/fcw_send_buf_reg[16]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[3]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -21.011 ns between dds_inst/fcw_send_buf_reg[7]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/uart_tx_data_reg[1]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#16 Warning
 Large setup violation  
-There is a large setup violation of -3.014 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[15]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.041 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[15]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#17 Warning
 Large setup violation  
-There is a large setup violation of -3.035 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[13]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.062 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[13]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#18 Warning
 Large setup violation  
-There is a large setup violation of -3.039 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[16]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.065 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[16]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#19 Warning
 Large setup violation  
-There is a large setup violation of -3.055 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[18]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.081 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[18]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#20 Warning
 Large setup violation  
-There is a large setup violation of -3.129 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[19]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.155 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[19]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#21 Warning
 Large setup violation  
-There is a large setup violation of -3.150 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[17]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.176 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[17]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#22 Warning
 Large setup violation  
-There is a large setup violation of -3.280 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[20]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.179 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[20]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#23 Warning
 Large setup violation  
-There is a large setup violation of -3.697 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[21]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.263 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[22]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#24 Warning
 Large setup violation  
-There is a large setup violation of -3.846 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[22]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.290 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[21]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#25 Warning
 Large setup violation  
-There is a large setup violation of -3.905 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[23]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.487 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[23]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#26 Warning
 Large setup violation  
-There is a large setup violation of -4.280 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[24]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.669 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[24]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#27 Warning
 Large setup violation  
-There is a large setup violation of -4.296 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[26]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.685 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[26]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#28 Warning
 Large setup violation  
-There is a large setup violation of -4.391 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[25]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.759 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[27]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#29 Warning
 Large setup violation  
-There is a large setup violation of -4.414 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[27]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.780 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[25]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#30 Warning
 Large setup violation  
-There is a large setup violation of -4.596 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[28]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.857 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[28]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#31 Warning
 Large setup violation  
-There is a large setup violation of -4.612 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[30]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -3.968 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[29]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#32 Warning
 Large setup violation  
-There is a large setup violation of -4.686 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[31]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.002 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[30]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#33 Warning
 Large setup violation  
-There is a large setup violation of -4.707 ns between dds_inst/hmi_recv_inst/dig_reg[0][6]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[29]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.061 ns between dds_inst/hmi_recv_inst/dig_reg[0][5]/C (clocked by clk_out1_pll_50m_to_100m) and dds_inst/hmi_recv_inst/HMI_Num_reg[31]/D (clocked by clk_out1_pll_50m_to_100m). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 

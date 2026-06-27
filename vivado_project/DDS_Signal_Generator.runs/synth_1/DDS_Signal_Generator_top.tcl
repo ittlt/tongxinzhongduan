@@ -35,19 +35,19 @@ read_verilog -library xil_defaultlib {
   D:/FPGAmoudle/--main/--main/rtl/DDS_Core.v
   D:/FPGAmoudle/--main/--main/rtl/DDS_Signal_Generator.v
   D:/FPGAmoudle/--main/--main/rtl/HMI_Recv.v
+  D:/FPGAmoudle/--main/--main/rtl/HMI_UARTX.v
   D:/FPGAmoudle/--main/--main/rtl/HMI_UARX.v
-  D:/FPGAmoudle/--main/--main/rtl/HMI_UATX.v
   D:/FPGAmoudle/--main/--main/rtl/Key_Control.v
   D:/FPGAmoudle/--main/--main/rtl/DDS_Signal_Generator_top.v
 }
-read_ip -quiet D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m/pll_50m_to_100m.xci
-set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m/pll_50m_to_100m_board.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m/pll_50m_to_100m.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m/pll_50m_to_100m_ooc.xdc]
-
 add_files D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/bd/zynq_ps/zynq_ps.bd
-set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/bd/zynq_ps/ip/zynq_ps_ps7_0_1/zynq_ps_ps7_0.xdc]
+set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/bd/zynq_ps/ip/zynq_ps_ps7_0/zynq_ps_ps7_0.xdc]
 set_property used_in_implementation false [get_files -all D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/bd/zynq_ps/zynq_ps_ooc.xdc]
+
+read_ip -quiet d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m_2/pll_50m_to_100m.xci
+set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m_2/pll_50m_to_100m_board.xdc]
+set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m_2/pll_50m_to_100m.xdc]
+set_property used_in_implementation false [get_files -all d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m_2/pll_50m_to_100m_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

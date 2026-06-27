@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Jun 19 21:28:02 2026
+| Date         : Sat Jun 27 21:01:16 2026
 | Host         : FAN running 64-bit major release  (build 9200)
 | Command      : report_drc -file DDS_Signal_Generator_top_drc_opted.rpt -pb DDS_Signal_Generator_top_drc_opted.pb -rpx DDS_Signal_Generator_top_drc_opted.rpx
 | Design       : DDS_Signal_Generator_top

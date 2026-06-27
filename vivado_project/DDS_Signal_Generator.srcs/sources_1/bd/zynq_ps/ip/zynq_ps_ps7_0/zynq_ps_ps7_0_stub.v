@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Fri Jun 19 17:35:35 2026
+// Date        : Fri Jun 19 17:35:34 2026
 // Host        : FAN running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/bd/zynq_ps/ip/zynq_ps_ps7_0/zynq_ps_ps7_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top zynq_ps_ps7_0 -prefix
+//               zynq_ps_ps7_0_ zynq_ps_ps7_0_stub.v
 // Design      : zynq_ps_ps7_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1

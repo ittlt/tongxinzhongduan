@@ -5,12 +5,11 @@
 
 puts "INFO: Creating Block Design 'zynq_ps'"
 
-# Close existing BD if open
-if {[catch {current_bd_design}]} {
-    puts "INFO: No BD design open"
-} else {
-    close_bd_design
-    puts "INFO: Closed existing BD design"
+# Remove existing BD if it exists
+if {[llength [get_files -of_objects [get_filesets sources_1] *.bd]] > 0} {
+    puts "INFO: Removing existing BD..."
+    remove_files [get_files zynq_ps.bd]
+    file delete -force "D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/bd/zynq_ps"
 }
 
 # Create Block Design

@@ -47,6 +47,20 @@ if {[llength $old_sim] > 0} {
 
 update_compile_order -fileset sources_1
 
+# ==================== STEP 1b: Add PLL IP ====================
+puts "\n===== STEP 1b: Adding PLL IP ====="
+
+# Check if PLL IP XCI exists
+set pll_xci "D:/FPGAmoudle/--main/--main/vivado_project/DDS_Signal_Generator.srcs/sources_1/ip/pll_50m_to_100m/pll_50m_to_100m.xci"
+if {[file exists $pll_xci]} {
+    puts "INFO: PLL IP already exists"
+} else {
+    puts "INFO: PLL IP not found, creating..."
+    source -notrace "D:/FPGAmoudle/--main/--main/vivado_project/add_pll_ip.tcl"
+    add_files -norecurse [get_files pll_50m_to_100m.xci]
+    update_compile_order -fileset sources_1
+}
+
 # ==================== STEP 2: Create PS Block Design ====================
 puts "\n===== STEP 2: Creating PS Block Design ====="
 

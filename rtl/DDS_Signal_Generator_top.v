@@ -18,7 +18,7 @@ module DDS_Signal_Generator_top(
     input [2:0]  key_in,
     input        uart_rx,
     output [7:0] dds_out,
-    output       dac_rst, uart_tx, led_sys, led_uart
+    output       uart_tx, led_sys, led_uart, dds_clk
 );
 
     wire FCLK_CLK0;
@@ -59,10 +59,10 @@ module DDS_Signal_Generator_top(
         .key_in(key_in),
         .uart_rx(uart_rx),
         .dds_out(dds_out),
-        .dac_rst(dac_rst),
         .uart_tx(uart_tx),
         .led_sys(led_sys),
-        .led_uart(led_uart)
+        .led_uart(led_uart),
+        .dds_clk(dds_clk)
     );
 
 endmodule

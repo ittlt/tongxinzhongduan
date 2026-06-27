@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jun 27 22:07:17 2026
+# Process ID: 31788
+# Current directory: D:/FPGAmoudle/--main/--main/vivado_project_pl_only
+# Command line: vivado.exe -mode batch -source create_pl_project.tcl
+# Log file: D:/FPGAmoudle/--main/--main/vivado_project_pl_only/vivado.log
+# Journal file: D:/FPGAmoudle/--main/--main/vivado_project_pl_only\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/tools/vivado/2019.2/scripts/Vivado_init.tcl'
+source create_pl_project.tcl
+# set proj_dir "D:/FPGAmoudle/--main/--main/vivado_project_pl_only"
+# set proj_name "DDS_Signal_Generator_PL"
+# create_project $proj_name $proj_dir/$proj_name -part xc7z010clg400-1 -force
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 440.832 ; gain = 151.871
+# add_files -norecurse $proj_dir/rtl/DDS_Core.v
+# add_files -norecurse $proj_dir/rtl/DDS_Signal_Generator.v
+# add_files -norecurse $proj_dir/rtl/HMI_Recv.v
+# add_files -norecurse $proj_dir/rtl/HMI_UARTX.v
+# add_files -norecurse $proj_dir/rtl/HMI_UARX.v
+# add_files -norecurse $proj_dir/rtl/Key_Control.v
+# add_files -fileset constrs_1 -norecurse $proj_dir/DDS_Signal_Generator.xdc
+# puts "INFO: Adding ILA IP..."
+INFO: Adding ILA IP...
+# source -notrace "$proj_dir/add_ila_ip.tcl"
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/vivado/2019.2/data/ip'.
+ERROR: [Vivado 12-4371] Cannot find parameter 'C_DATA_SAME_WIDTH' on IP 'ila_0'.
+ERROR: [Vivado 12-1342] Failed to set property 'CONFIG.C_DATA_SAME_WIDTH' on IP 'ila_0'.
+ERROR: [Vivado 12-4371] Cannot find parameter 'Céchange_WIDTH' on IP 'ila_0'.
+ERROR: [Vivado 12-1342] Failed to set property 'CONFIG.Céchange_WIDTH' on IP 'ila_0'.
+ERROR: [Vivado 12-4371] Cannot find parameter 'C_PROBE0_NAME' on IP 'ila_0'.
+ERROR: [Vivado 12-1342] Failed to set property 'CONFIG.C_PROBE0_NAME' on IP 'ila_0'.
+ERROR: [Vivado 12-4371] Cannot find parameter 'C_PROBE1_NAME' on IP 'ila_0'.
+ERROR: [Vivado 12-1342] Failed to set property 'CONFIG.C_PROBE1_NAME' on IP 'ila_0'.
+ERROR: [Vivado 12-4371] Cannot find parameter 'C_PROBE2_NAME' on IP 'ila_0'.
+ERROR: [Vivado 12-1342] Failed to set property 'CONFIG.C_PROBE2_NAME' on IP 'ila_0'.
+INFO: [Common 17-17] undo 'set_property'
+ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+
+    while executing
+"rdi::add_properties -dict {CONFIG.C_DATA_DEPTH 4096 CONFIG.C_TRIGIN_EN false CONFIG.C_TRIGOUT_EN false CONFIG.C_INPUT_PIPE_STAGES 0 CONFIG.C_DATA_SAME..."
+    invoked from within
+"set_property -dict [list \
+    CONFIG.C_DATA_DEPTH {4096} \
+    CONFIG.C_TRIGIN_EN {false} \
+    CONFIG.C_TRIGOUT_EN {false} \
+    CONFIG.C_INPUT_PIPE..."
+    (file "D:/FPGAmoudle/--main/--main/vivado_project_pl_only/add_ila_ip.tcl" line 8)
+
+    while executing
+"source -notrace "$proj_dir/add_ila_ip.tcl""
+    (file "create_pl_project.tcl" line 24)
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 27 22:07:34 2026...

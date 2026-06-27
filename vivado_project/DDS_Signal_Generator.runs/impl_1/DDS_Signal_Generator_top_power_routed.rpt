@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Fri Jun 19 21:30:01 2026
+| Date             : Sat Jun 27 21:05:03 2026
 | Host             : FAN running 64-bit major release  (build 9200)
 | Command          : report_power -file DDS_Signal_Generator_top_power_routed.rpt -pb DDS_Signal_Generator_top_power_summary_routed.pb -rpx DDS_Signal_Generator_top_power_routed.rpx
 | Design           : DDS_Signal_Generator_top
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.853        |
+| Total On-Chip Power (W)  | 1.861        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.729        |
+| Dynamic (W)              | 1.737        |
 | Device Static (W)        | 0.124        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 63.6         |
-| Junction Temperature (C) | 46.4         |
+| Max Ambient (C)          | 63.5         |
+| Junction Temperature (C) | 46.5         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -53,19 +53,19 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.003 |        6 |       --- |             --- |
-| Slice Logic    |     0.033 |     3896 |       --- |             --- |
-|   LUT as Logic |     0.031 |     2385 |     17600 |           13.55 |
+| Slice Logic    |     0.033 |     3890 |       --- |             --- |
+|   LUT as Logic |     0.031 |     2380 |     17600 |           13.52 |
 |   CARRY4       |     0.002 |      418 |      4400 |            9.50 |
 |   Register     |    <0.001 |      381 |     35200 |            1.08 |
 |   F7/F8 Muxes  |    <0.001 |       16 |     17600 |            0.09 |
 |   Others       |     0.000 |      154 |       --- |             --- |
-| Signals        |     0.040 |     3356 |       --- |             --- |
-| PLL            |     0.103 |        1 |         2 |           50.00 |
+| Signals        |     0.041 |     3350 |       --- |             --- |
+| MMCM           |     0.105 |        1 |         2 |           50.00 |
 | DSPs           |     0.005 |        8 |        80 |           10.00 |
-| I/O            |     0.014 |       16 |       100 |           16.00 |
+| I/O            |     0.019 |       16 |       100 |           16.00 |
 | PS7            |     1.531 |        1 |       --- |             --- |
 | Static Power   |     0.124 |          |           |                 |
-| Total          |     1.853 |          |           |                 |
+| Total          |     1.861 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -75,9 +75,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.099 |       0.091 |      0.008 |
-| Vccaux    |       1.800 |     0.061 |       0.052 |      0.008 |
-| Vcco33    |       3.300 |     0.005 |       0.004 |      0.001 |
+| Vccint    |       1.000 |     0.090 |       0.082 |      0.008 |
+| Vccaux    |       1.800 |     0.068 |       0.059 |      0.009 |
+| Vcco33    |       3.300 |     0.006 |       0.005 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -154,12 +154,12 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| DDS_Signal_Generator_top |     1.729 |
-|   dds_inst               |     0.144 |
+| DDS_Signal_Generator_top |     1.737 |
+|   dds_inst               |     0.147 |
 |     dds_core_inst        |     0.001 |
-|     hmi_recv_inst        |     0.006 |
-|     pll_inst             |     0.103 |
-|       inst               |     0.103 |
+|     hmi_recv_inst        |     0.007 |
+|     pll_inst             |     0.106 |
+|       inst               |     0.106 |
 |   ps7_i                  |     1.531 |
 |     ps7                  |     1.531 |
 |       inst               |     1.531 |

@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jun 27 22:14:02 2026
+# Process ID: 28328
+# Current directory: D:/FPGAmoudle/--main/--main/vivado_project_pl_only
+# Command line: vivado.exe -mode batch -source create_pl_project.tcl
+# Log file: D:/FPGAmoudle/--main/--main/vivado_project_pl_only/vivado.log
+# Journal file: D:/FPGAmoudle/--main/--main/vivado_project_pl_only\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/tools/vivado/2019.2/scripts/Vivado_init.tcl'
+source create_pl_project.tcl
+# set proj_dir "D:/FPGAmoudle/--main/--main/vivado_project_pl_only"
+# set proj_name "DDS_Signal_Generator_PL"
+# create_project $proj_name $proj_dir/$proj_name -part xc7z010clg400-1 -force
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 442.738 ; gain = 160.465
+# add_files -norecurse $proj_dir/rtl/DDS_Core.v
+# add_files -norecurse $proj_dir/rtl/DDS_Signal_Generator.v
+# add_files -norecurse $proj_dir/rtl/HMI_Recv.v
+# add_files -norecurse $proj_dir/rtl/HMI_UARTX.v
+# add_files -norecurse $proj_dir/rtl/HMI_UARX.v
+# add_files -norecurse $proj_dir/rtl/Key_Control.v
+# add_files -fileset constrs_1 -norecurse $proj_dir/DDS_Signal_Generator.xdc
+# puts "INFO: Adding ILA IP..."
+INFO: Adding ILA IP...
+# source -notrace "$proj_dir/add_ila_ip.tcl"
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/tools/vivado/2019.2/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGAmoudle/--main/--main/vivado_project_pl_only/DDS_Signal_Generator_PL/DDS_Signal_Generator_PL.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+INFO: ILA IP created successfully
+# puts "INFO: Adding PLL IP..."
+INFO: Adding PLL IP...
+# source -notrace "$proj_dir/add_pll_ip.tcl"
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pll_50m_to_100m'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pll_50m_to_100m'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pll_50m_to_100m'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'pll_50m_to_100m'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pll_50m_to_100m'...
+INFO: PLL IP created successfully
+# set_property top DDS_Signal_Generator [current_fileset]
+# update_compile_order -fileset sources_1
+# puts "INFO: Pure PL project with ILA created successfully!"
+INFO: Pure PL project with ILA created successfully!
+# puts "INFO: Project: $proj_dir/$proj_name.xpr"
+INFO: Project: D:/FPGAmoudle/--main/--main/vivado_project_pl_only/DDS_Signal_Generator_PL.xpr
+# puts "INFO: Top module: DDS_Signal_Generator"
+INFO: Top module: DDS_Signal_Generator
+# puts "INFO: ILA monitors: dds_out(8-bit), fcw_sel(32-bit), fcw_uart(32-bit)"
+INFO: ILA monitors: dds_out(8-bit), fcw_sel(32-bit), fcw_uart(32-bit)
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 27 22:14:28 2026...

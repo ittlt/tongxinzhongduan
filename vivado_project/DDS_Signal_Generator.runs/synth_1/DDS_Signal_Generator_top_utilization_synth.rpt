@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Jun 19 21:26:59 2026
+| Date         : Sat Jun 27 21:00:21 2026
 | Host         : FAN running 64-bit major release  (build 9200)
 | Command      : report_utilization -file DDS_Signal_Generator_top_utilization_synth.rpt -pb DDS_Signal_Generator_top_utilization_synth.pb
 | Design       : DDS_Signal_Generator_top
@@ -30,8 +30,8 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             | 2361 |     0 |     17600 | 13.41 |
-|   LUT as Logic          | 2361 |     0 |     17600 | 13.41 |
+| Slice LUTs*             | 2360 |     0 |     17600 | 13.41 |
+|   LUT as Logic          | 2360 |     0 |     17600 | 13.41 |
 |   LUT as Memory         |    0 |     0 |      6000 |  0.00 |
 | Slice Registers         |  381 |     0 |     35200 |  1.08 |
 |   Register as Flip Flop |  381 |     0 |     35200 |  1.08 |
@@ -114,10 +114,10 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    2 |     0 |        32 |  6.25 |
+| BUFGCTRL   |    0 |     0 |        32 |  0.00 |
 | BUFIO      |    0 |     0 |         8 |  0.00 |
 | MMCME2_ADV |    0 |     0 |         2 |  0.00 |
-| PLLE2_ADV  |    1 |     0 |         2 | 50.00 |
+| PLLE2_ADV  |    0 |     0 |         2 |  0.00 |
 | BUFMRCE    |    0 |     0 |         4 |  0.00 |
 | BUFHCE     |    0 |     0 |        48 |  0.00 |
 | BUFR       |    0 |     0 |         8 |  0.00 |
@@ -144,37 +144,36 @@ Table of Contents
 7. Primitives
 -------------
 
-+-----------+------+---------------------+
-|  Ref Name | Used | Functional Category |
-+-----------+------+---------------------+
-| LUT6      |  659 |                 LUT |
-| LUT3      |  635 |                 LUT |
-| LUT2      |  594 |                 LUT |
-| LUT4      |  572 |                 LUT |
-| CARRY4    |  418 |          CarryLogic |
-| LUT5      |  404 |                 LUT |
-| FDCE      |  360 |        Flop & Latch |
-| LUT1      |   51 |                 LUT |
-| FDPE      |   19 |        Flop & Latch |
-| OBUF      |   12 |                  IO |
-| MUXF7     |   11 |               MuxFx |
-| DSP48E1   |    8 |    Block Arithmetic |
-| MUXF8     |    5 |               MuxFx |
-| IBUF      |    4 |                  IO |
-| FDRE      |    2 |        Flop & Latch |
-| BUFG      |    2 |               Clock |
-| PLLE2_ADV |    1 |               Clock |
-+-----------+------+---------------------+
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| LUT6     |  659 |                 LUT |
+| LUT3     |  635 |                 LUT |
+| LUT2     |  594 |                 LUT |
+| LUT4     |  572 |                 LUT |
+| CARRY4   |  418 |          CarryLogic |
+| LUT5     |  404 |                 LUT |
+| FDCE     |  360 |        Flop & Latch |
+| LUT1     |   50 |                 LUT |
+| FDPE     |   19 |        Flop & Latch |
+| OBUF     |   12 |                  IO |
+| MUXF7    |   11 |               MuxFx |
+| DSP48E1  |    8 |    Block Arithmetic |
+| MUXF8    |    5 |               MuxFx |
+| IBUF     |    4 |                  IO |
+| FDRE     |    2 |        Flop & Latch |
++----------+------+---------------------+
 
 
 8. Black Boxes
 --------------
 
-+---------------+------+
-|    Ref Name   | Used |
-+---------------+------+
-| zynq_ps_ps7_0 |    1 |
-+---------------+------+
++-----------------+------+
+|     Ref Name    | Used |
++-----------------+------+
+| zynq_ps_ps7_0   |    1 |
+| pll_50m_to_100m |    1 |
++-----------------+------+
 
 
 9. Instantiated Netlists

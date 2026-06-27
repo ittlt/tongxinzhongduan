@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Jun 19 21:29:04 2026
+| Date         : Sat Jun 27 21:02:31 2026
 | Host         : FAN running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file DDS_Signal_Generator_top_control_sets_placed.rpt
 | Design       : DDS_Signal_Generator_top
@@ -59,10 +59,10 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               2 |            1 |
-| No           | No                    | Yes                    |             113 |           36 |
+| No           | No                    | Yes                    |             113 |           40 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |             266 |           89 |
+| Yes          | No                    | Yes                    |             266 |           86 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -73,30 +73,30 @@ Table of Contents
 +----------------------------------+---------------------------------------------+------------------------------------------------+------------------+----------------+
 |           Clock Signal           |                Enable Signal                |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
 +----------------------------------+---------------------------------------------+------------------------------------------------+------------------+----------------+
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/p_6_out[2]           | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              1 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/p_6_out[0]           | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              1 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/p_6_out[2]           | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              1 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/p_6_out[1]           | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              1 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/u_uart_tx/bit_flag_reg_n_0         | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              1 |
 |  dds_inst/pll_inst/inst/clk_out1 |                                             |                                                |                1 |              2 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/byte_idx[3]_i_1_n_0                | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                2 |              4 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/byte_idx[3]_i_1_n_0                | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              4 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/wrsigrise            | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                3 |              4 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/u_uart_tx/bit_cnt[3]_i_1_n_0       | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                2 |              4 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/U1/rx_cnt[3]_i_1_n_0 | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              4 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/wrsigrise            | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                2 |              4 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/u_uart_tx/bit_cnt[3]_i_1_n_0       | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                1 |              4 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/uart_tx_data[6]_i_1_n_0            | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                5 |              7 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[1][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                2 |              8 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[2][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                4 |              8 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[1][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                3 |              8 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[2][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                5 |              8 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[5][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                4 |              8 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[4][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                3 |              8 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig                  | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                2 |              8 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[3][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                3 |              8 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[4][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                3 |              8 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/dig[5][7]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                3 |              8 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/cnt[1][0]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                5 |             20 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/cnt[2][0]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                5 |             20 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/cnt[0][0]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                5 |             20 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/byte_timer[31]_i_1_n_0             | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                8 |             32 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/HMI_Done_reg_0       | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |               10 |             32 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/key_ctrl_inst/cnt[2][0]_i_1_n_0    | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                5 |             20 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/byte_timer[31]_i_1_n_0             | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                7 |             32 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/HMI_Done_reg_0       | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                9 |             32 |
 |  dds_inst/pll_inst/inst/clk_out1 | dds_inst/hmi_recv_inst/U1/E[0]              | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |                8 |             32 |
-|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/sending1_out                       | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |               16 |             35 |
-|  dds_inst/pll_inst/inst/clk_out1 |                                             | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |               36 |            113 |
+|  dds_inst/pll_inst/inst/clk_out1 | dds_inst/sending1_out                       | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |               11 |             35 |
+|  dds_inst/pll_inst/inst/clk_out1 |                                             | dds_inst/hmi_recv_inst/U1/bbstub_FCLK_RESET0_N |               40 |            113 |
 +----------------------------------+---------------------------------------------+------------------------------------------------+------------------+----------------+
 
 

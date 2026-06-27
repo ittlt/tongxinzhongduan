@@ -8,10 +8,10 @@ module DDS_Signal_Generator(
     input [2:0]     key_in,
     input           uart_rx,
     output [7:0]    dds_out,
-    output          dac_rst,
     output          uart_tx,
     output          led_sys,
-    output          led_uart
+    output          led_uart,
+    output          dds_clk
 );
 
 wire [31:0] fcw_key;
@@ -32,7 +32,7 @@ pll_50m_to_100m pll_inst(
 );
 
 // 2. DAC reset
-assign dac_rst = rst_n;
+assign dds_clk = clk_50mhz;
 
 // 3. Key Control
 Key_Control key_ctrl_inst(
